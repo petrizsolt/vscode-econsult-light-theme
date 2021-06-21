@@ -1,0 +1,33 @@
+{
+	"name": "Theme-Econsult",
+	"displayName": "Econsult Theme",
+	"description": "Econsult theme for Java.",
+	"version": "0.0.1",
+	"publisher": "petrizsolt",
+	"engines": {
+		"vscode": "^0.10.1"
+	},
+	"categories": [
+		"Themes"
+	],
+	"icon": "icon.png",
+	"homepage": "https://github.com/petrizsolt/vscode-econsult-light-theme",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/petrizsolt/vscode-econsult-light-theme"
+	},
+	"contributes": {
+		"themes": [
+			{
+				"label": "Econsult light regular",
+				"path": "./themes/econsult-regular-light.tmTheme",
+				"uiTheme": "vs"
+			},
+			{
+				"label": "Econsult light bold",
+				"path": "./themes/econsult-bold-light.tmTheme",
+				"uiTheme": "vs"
+			}
+		]
+	}
+}
